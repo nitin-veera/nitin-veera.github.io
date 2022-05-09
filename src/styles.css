@@ -33,6 +33,7 @@ ul {
     color: #003B5C;
     padding-bottom: 200px;
     margin: 20px;
+    margin-left: 10px;
 }
 
 h1 {
@@ -49,6 +50,10 @@ p {
     font-size: 30px;
     font-weight: 300;
 }
+
+/* ul {
+    margin-
+} */
 
 .home {
     background-color: white;
@@ -104,6 +109,7 @@ p {
 .logo {
     height: 80px;
     margin: 30px;
+    margin-right: 10px;
     font-size: 40px;
     color: #2774AE;
     text-decoration: none;
