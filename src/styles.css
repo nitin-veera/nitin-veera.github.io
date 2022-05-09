@@ -102,6 +102,50 @@ p {
     margin-right: 100px;
 }
 
+@media only screen and (max-width: 1000px) {
+
+    .home-area {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home-text {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 50px;
+    }
+
+    .button {
+        margin: 0 auto;
+        margin-top: 50px;
+
+        width: 300px;
+        height: 80px;
+        border-radius: 70px;
+        font-size: 45px;
+    }
+
+    .headshot-container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        margin-bottom: 300px;
+    }
+    .headshot {
+        width: 600px;
+        border-radius: 300px;
+        display:block;
+        margin:auto;
+    }
+}
+
 /* .home-socials {
     margin-bottom: 200px;
 } */
