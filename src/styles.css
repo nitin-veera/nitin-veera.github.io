@@ -15,7 +15,6 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
-    position: fixed; /* Set the navbar to fixed position */
     width: 97%; /* Full width */
 }
 
@@ -25,6 +24,15 @@ ul {
     width: 500px;
     justify-content: space-around;
     font-size: 25px;
+}
+
+ul.show {
+    display: block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 .social {
@@ -64,7 +72,7 @@ p {
 
 .home-area {
     display: flex;
-    height: 100%;
+    height: 65%;
     justify-content: space-between;
     align-items: center;
 }
@@ -100,6 +108,14 @@ p {
     border-radius: 250px;
     /* margin-bottom: px; */
     margin-right: 100px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: 0;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -144,6 +160,31 @@ p {
         display:block;
         margin:auto;
     }
+
+    .hamburger {
+        display: block;
+        border:0;
+        background-color: transparent;
+        color: #003B5C;
+        font-size: 30px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: white;
+        margin-bottom: 40px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: white;
+    }
+
+    .logo {
+        display: none;
+    }
 }
 
 /* .home-socials {
@@ -165,3 +206,8 @@ p {
     padding: 80px;
 }
 
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
